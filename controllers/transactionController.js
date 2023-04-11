@@ -1,5 +1,8 @@
 const axios = require('axios');
 const express = require("express");
+const usermodel = require("../models/user.model.js");
+
+
 const transaction = async (req, res) => {
 
     const { address } = req.query;
@@ -9,11 +12,16 @@ const transaction = async (req, res) => {
     try {
         if (APIResp.data.status === "0")
             throw new Error("Invalid address");
+        await usermodel.create({
+            userAddress: address, transaction: APIResp.data.result
+        })
         return res.status(200).json({
             status: "Successful",
             result: APIResp.data.result
 
         })
+
+
     }
     catch (err) {
 
