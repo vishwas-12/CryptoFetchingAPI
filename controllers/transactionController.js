@@ -13,7 +13,7 @@ const transaction = async (req, res) => {
         if (APIResp.data.status === "0")
             throw new Error("Invalid address");
         await usermodel.create({
-            userAddress: address, transaction: APIResp.data.result
+            userAddress: address, transaction: APIResp.data.result  //storing useraddress and transaction data in the database
         })
         return res.status(200).json({
             status: "Successful",
