@@ -8,3 +8,9 @@ A Server Side Application to fetch Crypto Transactions of a user
 
 2. Screenshot of Database holding user Address with transaction
 ![image](https://user-images.githubusercontent.com/76418867/231294217-6da1a9e9-0bf3-4163-90c4-9a70119c0bb0.png)
+
+3. Get transaction list when executed on local server
+ ![image](https://user-images.githubusercontent.com/76418867/231385275-48b2e8d6-2620-4346-9df4-e08e2910dea1.png)
+
+4. Get user's balance when executed on local server
+![image](https://user-images.githubusercontent.com/76418867/231385373-26c8c4ee-519f-41c9-a1cd-efe870f4cb97.png)
