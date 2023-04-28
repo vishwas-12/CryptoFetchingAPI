@@ -1,4 +1,4 @@
-# KoinX-CryptoFetching
+# CryptoFetchingAPI
 A Server Side Application to fetch Crypto Transactions of a user
 1. Screenshot of Database fetching prices every 10 minutes
 ![image](https://user-images.githubusercontent.com/76418867/231344366-f7281940-5711-4c84-a0bf-34e2deee0d10.png)
